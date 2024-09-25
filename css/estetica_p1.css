@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+nav{
+    position: relative;
+    top: -17px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 10px 90px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+    transition: all 1s ease;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 20px rgb(48, 49, 66);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+
+nav:hover{
+    position: relative;
+    top: -17px;
+    left: 0;
+    width: 100%;
+    height: 135px;
+    padding: 10px 90px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 20px rgb(48, 49, 66);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+
+div.logo{
+    font-size: 24px;
+    width: 200px;
+    padding: 22px 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+input{
+    width: 250px;
+}
+nav .logo{
+    position: relative;
+    padding: 20px 22px;
+    height: 0px;
+    float: left;
+    left: -20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:lowercase;
+
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #989898;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .35s;
+}
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+    font-size: 18px;
+}
+section{
+    width: 100%;
+    height: 10vh;
+    background: url();
+    background-size: cover;
+    background-position: center;
+}
+ul li.tot{
+    width: 100px;
+    background-color: black;
+    font-size: 14px;
+    padding: 12px 50px;
+    
+}
+.container{
+    position:relative;
+    top: 10%;
+    display: flex;
+
+}
+.container:hover{
+    position: relative;
+    top: 10%;
+    display: flex;
+    overflow: visible;
+
+}
+div.item{
+    flex: 1;
+    overflow:hidden;
+    transition: .35s;
+    cursor: pointer;
+}
+div.item:hover{
+    flex: 1.1;
+    background: rgba(0,0,0,0.4);
+}
+div.item img{
+    width: 200px;
+    height: 200px;
+    transition: .35s;
+}
+div.item img:hover{
+    width: 220px;
+    height: 220px;
+}
